@@ -1,0 +1,20 @@
+{
+    "name": "rahulreghunath/nttdatapay",
+    "description": "nttdatapay payment gateway integration",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {     
+                                        
+            "Rahulreghunath\\Nttdatapay\\": "src/"            
+        }
+    },
+    "authors": [
+        {
+            "name": "Rahul Reghunath",
+            "email": "rahulreghunath11@gmail.com"
+        }
+    ],
+    "require": {        
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
