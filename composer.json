@@ -1,18 +1,25 @@
 {
     "name": "rahulreghunath/nttdatapay",
-    "description": "nttdatapay payment gateway integration",
+    "description": "nttdatapay payment gateway integration in laravel",
+    "keywords": [
+        "laravel",
+        "nttdatapay",
+        "payment gateway"
+    ],
+    "authors": [
+        {
+            "name": "Rahul Reghunath",
+            "email": "reghunath11@gmail.com",
+            "homepage": "https://rahulr.me",
+            "role": "developer"
+        }
+    ],
     "license": "MIT",
     "autoload": {
         "psr-4": {
             "Rahulreghunath\\Nttdatapay\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "Rahul Reghunath",
-            "email": "rahulreghunath11@gmail.com"
-        }
-    ],
     "require": {
         "guzzlehttp/guzzle": "^7.0"
     },
