@@ -3,9 +3,8 @@
     "description": "nttdatapay payment gateway integration",
     "license": "MIT",
     "autoload": {
-        "psr-4": {     
-                                        
-            "Rahulreghunath\\Nttdatapay\\": "src/"            
+        "psr-4": {
+            "Rahulreghunath\\Nttdatapay\\": "src/"
         }
     },
     "authors": [
@@ -14,7 +13,14 @@
             "email": "rahulreghunath11@gmail.com"
         }
     ],
-    "require": {        
+    "require": {
         "guzzlehttp/guzzle": "^7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rahulreghunath\\Nttdatapay\\ServiceProvider"
+            ]
+        }
     }
 }
