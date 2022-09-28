@@ -20,9 +20,6 @@
             "Rahulreghunath\\Nttdatapay\\": "src/"
         }
     },
-    "require": {
-        "guzzlehttp/guzzle": "^7.0"
-    },
     "extra": {
         "laravel": {
             "providers": [
