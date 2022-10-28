@@ -117,10 +117,6 @@ class Atom
         $response = curl_exec($curl);
         $err = curl_error($curl);
 
-        if ($err) {
-            $status = [''];
-        }
-
         curl_close($curl);
 
         return $this->decrypt($response, 'sha1');
@@ -153,7 +149,7 @@ class Atom
      *
      * @param string $data
      * @param string $digest_algo
-     * @return Array decrypted data
+     * @return JSON decrypted data
      */
     public function decrypt($data, $digest_algo = 'sha512')
     {
