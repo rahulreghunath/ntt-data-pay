@@ -4,12 +4,12 @@ Laravel integration for [NTT DATA PAY](https://www.nttdatapay.com) Payment gatew
 
 ## Installation
 
-Require this package in your composer.json and update composer. This will download the package.
+Install the package using using composer install.
 ```shell
 composer require rahulreghunath/nttdatapay
 ```
 
-Run the command to publish the configuration file file
+Run the command to publish the configuration file.
         
 ```shell
 php artisan vendor:publish --provider="Rahulreghunath\Nttdatapay\ServiceProvider"
@@ -27,7 +27,7 @@ Set the credentials and configurations in `config/nttdatapay.php` file.
 |merchantId|Merchant id|<img src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" width="20px"/>|
 |password| Merchant Password|<img src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" width="20px"/>|
 
-Please note that the configurations will be different for testing and production and will be provided by NTT DATA.
+Please note that the configurations will be different for testing and production environments and will be provided by NTT DATA.
  
  ## Usage
 
@@ -97,7 +97,7 @@ Use the Atom Token Id to call the javascript API
     }
 </script>
  ```
-Mandatory JavaScript CDN link will be provided by NTT DATA and will be different for production and testing
+Mandatory JavaScript CDN link will be provided by NTT DATA and will be different for production and testing environments.
 
 #### Check Transaction Status
 
